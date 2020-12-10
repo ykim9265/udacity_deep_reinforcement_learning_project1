@@ -52,21 +52,21 @@ Note that I could not install `unityagents` in python3.7, but was able to in pyt
 
 ### Unity Environment
 
-1. Download the Unity Environment
+#### 1. Download the Unity Environment
 
 To run the notebook, you need to download one of the prepared Unity environment files matching your setup:
 
-    Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 The zip file needs to be placed in the root folder, and uncompressed.
 
-2. Explore the Environment
+#### 2. Explore the Environment
 
-If the Unity environment has been set up correctly, then the notebook should run like the one shown below in the video:
-https://www.youtube.com/watch?v=ltz2GhFv04A
+If the Unity environment has been set up correctly, then the notebook should 
+run like the one shown below in the video: [click here](https://www.youtube.com/watch?v=ltz2GhFv04A)
 
 ## Instructions
 
