@@ -35,8 +35,8 @@ Note that to run this Banana enviroment, the user has to use the provided Unity 
 The following instructions have been tested on the linux ubuntu environment.
 
 ### Python virtual environment
-1. Create a python version 3.6 virtual environment.
-2. For the environment, issue the following statements to install required dependencies:
+1. Create a python version 3.6 virtual environment. You can use `conda` or `pyenv`.
+2. Once you `activate` into the environment, issue the following statements to install required dependencies:
 
 Here is the command:
 
@@ -52,17 +52,25 @@ Note that I could not install `unityagents` in python3.7, but was able to in pyt
 
 ### Unity Environment
 
-1. Clone the DRLND Repository
+1. Download the Unity Environment
 
-2. Download the Unity Environment
+To run the notebook, you need to download one of the prepared Unity environment files matching your setup:
 
-3. Step 3: Explore the Environment
+    Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-If the Unity environment has been set up correctly, then the notebook TEST should run as shown below in the video:
+The zip file needs to be placed in the root folder, and uncompressed.
+
+2. Explore the Environment
+
+If the Unity environment has been set up correctly, then the notebook should run like the one shown below in the video:
 https://www.youtube.com/watch?v=ltz2GhFv04A
 
 ## Instructions
 
-To run the trained agent for the Banana environment, you can run the jupyter notebook TBD in the python environment that you created above.
+To train an agent for the Banana environment, you can run the jupyter 
+notebook `training_code.ipynb` in the python environment that you created above.
 
 
