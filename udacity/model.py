@@ -1,3 +1,6 @@
+
+# The following has been taken from the Udacity nanodegree Deep Reinforcement Learning course.
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
